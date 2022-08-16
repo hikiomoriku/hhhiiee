@@ -1,3 +1,3 @@
 <?php
-echo "<font size=5>Здравствуйте, $name</font>";
+echo 'Привет, ' . htmlspecialchars($_POST["name"]) . '!';
 ?>
